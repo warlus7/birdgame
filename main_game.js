@@ -184,7 +184,7 @@ function init() {
 		button.addEventListener("click", function() {
 			stage.removeChild(button, startText);
 			createWatermelon();
-			setInterval(createWatermelon, 1000);
+			setInterval(createWatermelon, 2000);
 			
 			stage.addChild(result);	
 			setInterval(printResult, 200);
