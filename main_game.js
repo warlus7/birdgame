@@ -52,8 +52,8 @@ function init() {
 			var wtm = { branchN : Math.floor(Math.random() * 4) + 1 };
 			watermelons.push(wtm);		
 
-			if (countWatermelons != 0 && countWatermelons % 5 == 0 && countWatermelons < 80)
-				speed-=400;
+			if (countWatermelons != 0 && countWatermelons % 10 == 0 && countWatermelons < 80)
+				speed-=300;
 		  
 			var bmp = new createjs.Bitmap("images/arbuz.png");
 			wtm.bmp = bmp;
